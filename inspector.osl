@@ -1,0 +1,5 @@
+shader Inspector(float input=0,output color debug=0)
+{
+  debug = input;
+  printf("%f" , debug );
+}
